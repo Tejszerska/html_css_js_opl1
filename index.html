@@ -1,0 +1,169 @@
+<!-- komentarz -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kurs HTML</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="kursy, szkolenia, html">
+    <meta name="author" content="Rafał Grzywacz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Nagłówek 1</h1> <!--Największy nagłówek-->
+    <h2>Nagłówek 2</h2>
+    <h6>Nagłówek 6</h6> <!--Najmniejszy nagłówek-->
+
+    <p>To jest akapit, tutaj wprowadzamy tekst na stronę.</p>
+    Tekst możemy wprowadzić na stronę bez taga &lt;p&gt;, ale taki tekst
+    jest inaczej formatowany przez przeglądarkę.
+
+    <a href="https://www.sdacademy.pl" target="_blank">
+        Link do strony SDA
+    </a>
+
+    <img src="images/orange.png" alt="Fundacja Orange">
+    <video>
+        <source src="movie.mp4" type="video/mp4">
+    </video>
+
+    <br />
+    <h2>Lista nieuporządkowana</h2>
+    <ul>
+        <li>czerwony</li>
+        <li>zielony</li>
+        <li>niebieski</li>
+    </ul>
+
+    <h2>Lista uporządkowana</h2>
+    <ol>
+        <li>czerwony</li>
+        <li>zielony</li>
+        <li>niebieski</li>
+    </ol>
+
+    <h2>Tekst pochyły/ kursywa &lt;i&gt;</h2>
+    <p><i>To jest akapit</i>, tutaj wprowadzamy tekst na stronę.</p>
+
+    <h2>Pogrubienie tekstu &lt;b&gt;</h2>
+    <p><b>To jest akapit</b>, tutaj wprowadzamy tekst na stronę.</p>
+
+    <h2>Podkreślenie tekstu &lt;u&gt;</h2>
+    <hr /> <!--pozioma linia-->
+    <p><u>To jest akapit</u>, tutaj wprowadzamy tekst na stronę.</p>
+
+    <span>Tutaj wprowadza się tekst</span>
+
+    <h2>Tabele</h2>
+    <table border="1">
+        <tr>
+            <th>Temat szkolenia</th>
+            <th>Termin szkolenia</th>
+            <th>Prowadzący</th>
+        </tr>
+        <tr>
+            <td>Podstawy HTML</td>
+            <td>21.03.2023</td>
+        </tr>
+        <tr>
+            <td>Podstawy CSS</td>
+            <td>23.03.2023</td>
+        </tr>
+    </table>
+
+    <h2>Znaczniki semantyczne</h2>
+    <h3>header</h3>
+    <header>To jest header</header>
+
+    <h3>nav</h3>
+    <nav>To jest nav</nav>
+
+    <h3>main</h3>
+    <main>To jest main</main>
+
+    <h3>article</h3>
+    <article>To jest article</article>
+
+    <h3>section</h3>
+    <section>To jest section</nsectionav>
+
+        <h3>aside</h3>
+        <aside>To jest aside</aside>
+
+        <h3>footer</h3>
+        <footer>To jest footer</footer>
+
+        <h2>Formularze</h2>
+        <form action="/some/relative/url" method="post">
+            <label for="firstName">Imie:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="np. Jan" />
+
+            <p>Wybierz swój przedział wiekowy</p>
+            <input type="radio" id="ageScopeOne" name="age">
+            <label for="ageScopeOne">0-30</label> <br />
+
+            <input type="radio" id="ageScopeTwo" name="age">
+            <label for="ageScopeTwo">31-60</label> <br />
+
+            <input type="radio" id="ageScopeThree" name="age">
+            <label for="ageScopeThree">61-100</label> <br />
+
+
+            <p>Wybierz swoje ulubione owoce</p>
+            <input type="checkbox" id="fruitOne" name="fruit">
+            <label for="fruitOne">Banany</label>
+
+            <input type="checkbox" id="fruitTwo" name="fruit">
+            <label for="fruitTwo">Jabłka</label>
+
+            <input type="checkbox" id="fruitThree" name="fruit">
+            <label for="fruitThree">Grejpfruty</label>
+
+            <input type="checkbox" id="fruitFour" name="fruit">
+            <label for="fruitFour">Truskawki</label>
+
+            <input type="checkbox" id="fruitFive" name="fruit">
+            <label for="fruitFive">Jagody</label>
+
+            <p>Podaj hasło</p>
+            <input type="password" name="userPassword">
+
+            <p>Wybierz kolor</p>
+            <select name="colors">
+                <option value="red">Czerwony</option>
+                <option value="green">Zielony</option>
+                <option value="blue">Niebieski</option>
+            </select>
+            <br />
+            <label for="birthDate">Podaj datę urodzenia</label>
+            <input type="date" id="birthDate" name="birthDate">
+            <br />
+
+            <label for="favoriteNumber">Podaj ulubioną liczbę</label>
+            <input type="number" id="favoriteNumber" name="favoriteNumber">
+            <br />
+
+            <label for="emaill">Podaj email</label>
+            <input type="email" id="emaill" name="emaill" required>
+            <br />
+            <textarea cols="100" rows="10" name="message"></textarea>
+            <input type="submit" value="Wyślij">
+        </form>
+
+        <p>Akapit 1</p>
+        <p>Akapit 2</p>
+
+        <a href="#">Strona główna SDA</a>
+        <a href="#">SDA (o nas)</a>
+
+        <div>
+            test
+        </div>
+        <div>
+            test
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+
+</html>
